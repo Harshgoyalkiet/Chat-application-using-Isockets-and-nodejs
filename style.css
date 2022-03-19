@@ -1,0 +1,88 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation img {
+  height: 100px; 
+  width: 100px;
+  display: inline-block;
+  margin: 10px 10px;
+}
+.navigation h2 {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgb(207, 218, 48), rgb(233, 161, 135));
+  height:100vh;
+}
+
+.container {
+  max-width: 955px;
+  background-color: rgb(238, 80, 22);
+  margin: auto;
+  height: 60vh;
+  padding-top: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 33px;
+  overflow-y: scroll;
+  margin-bottom: 23px;
+}
+.message {
+  background-color: rgb(180, 100, 100);
+  margin-top: 15px;
+  display: block;
+  margin-left: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 32%;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+
+.sendcontainer {
+  text-align: center;
+  max-width: 985px;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+.sendcontainer input {
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+.sendcontainer input::placeholder {
+  color: black;
+  font-family: fantasy;
+}
+#messageInp {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 34px;
+  width: 92%;
+}
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
+  padding: 10px;
+  margin-top: 8px;
+  color: black;
+  font-family: fantasy;
+}
